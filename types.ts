@@ -12,7 +12,7 @@ export type Category = {
 
 export type Product = {
   id: string;
-  category: Category;
+  category?: Category;
   name: string;
   price: string;
   isFeatured: boolean;
