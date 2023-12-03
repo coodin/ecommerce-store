@@ -5,10 +5,10 @@ import getSizes from "@/actions/get-sizes";
 
 import Billboard from "@/components/billboard";
 import Container from "@/components/ui/container";
-import Filter from "./components/filter";
+import Filter from "@/components/filter";
 import NoResults from "@/components/ui/no-result";
 import ProductCart from "@/components/ui/product-card";
-import MobileFilters from "./components/mobile-filters";
+import MobileFilters from "@/components/mobile-filters";
 
 type CategoryPageProps = {
   params: {

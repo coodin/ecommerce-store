@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 
-import CartItem from "./components/cart-item";
-import Summary from "./components/summary";
+import CartItem from "../../../components/cart-item";
+import Summary from "../../../components/summary";
 import Container from "@/components/ui/container";
 import useCart from "@/hooks/use-cart";
 import { cn } from "@/lib/utils";
